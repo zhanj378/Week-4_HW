@@ -26,7 +26,7 @@
     }
 
     var remainingLetters = word.length
-    var guesses = 6;
+    var guesses = 10;
 
     //The Game Loop
 
