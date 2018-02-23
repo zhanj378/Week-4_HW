@@ -1,6 +1,3 @@
-# Week-4_HW
-
-```ruby
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,7 +8,7 @@
     <script type="text/javascript">
     //An array of words
 
-    var words = ["eiffel tower", "big ben", "leaning tower of pisa", "colosseum", "empire state building", "hollywood", "golden Gate Bridge", "tokyo tower", "london eye", “the great wall”]
+    var words = ["eiffel tower", "big ben", "leaning tower of pisa", "colosseum", "empire state building", "hollywood", "golden Gate Bridge", "tokyo tower", "london eye", "the great wall"]
 
     //Pick a random word from the words array
 
@@ -26,7 +23,7 @@
     }
 
     var remainingLetters = word.length
-    var guesses = 10;
+    var guesses = 10;
 
     //The Game Loop
 
@@ -53,6 +50,8 @@
                 remainingLetters--
                     }
                 }
+            }
+        }
         //End of the game loop
 
         //Show answer and congratulate the player
